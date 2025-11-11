@@ -245,20 +245,6 @@ end loop</dataString>
       <pos x="820" y="820"/>
     </visualElement>
     <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>write0</string>
-        </entry>
-      </elementAttributes>
-      <pos x="820" y="840"/>
-    </visualElement>
-    <visualElement>
       <elementName>Register</elementName>
       <elementAttributes>
         <entry>
@@ -2294,12 +2280,12 @@ end loop</dataString>
       <elementName>Multiplexer</elementName>
       <elementAttributes>
         <entry>
-          <string>Bits</string>
-          <int>32</int>
-        </entry>
-        <entry>
           <string>Selector Bits</string>
           <int>5</int>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
         </entry>
       </elementAttributes>
       <pos x="2180" y="680"/>
@@ -5224,6 +5210,16 @@ end loop</dataString>
       </elementAttributes>
       <pos x="3000" y="260"/>
     </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="820" y="840"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -5759,16 +5755,16 @@ end loop</dataString>
       <p2 x="540" y="580"/>
     </wire>
     <wire>
-      <p1 x="820" y="840"/>
-      <p2 x="840" y="840"/>
-    </wire>
-    <wire>
       <p1 x="1100" y="840"/>
       <p2 x="1120" y="840"/>
     </wire>
     <wire>
       <p1 x="1400" y="840"/>
       <p2 x="1420" y="840"/>
+    </wire>
+    <wire>
+      <p1 x="820" y="840"/>
+      <p2 x="840" y="840"/>
     </wire>
     <wire>
       <p1 x="1880" y="200"/>
